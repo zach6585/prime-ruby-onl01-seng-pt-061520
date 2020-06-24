@@ -1,7 +1,7 @@
 def prime?(integer)
   i = 2
   if integer < 2
-    return false
+    return true 
   end 
   while i < integer
     if integer % i == 0 
