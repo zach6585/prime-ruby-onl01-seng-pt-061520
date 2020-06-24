@@ -1,8 +1,6 @@
 def prime?(integer)
   i = 2
-  if integer == 1 or integer == 0 
-    return false
-  elsif integer < 0 
+  if integer < i 
     return false
   end 
   while i < integer
